@@ -9,6 +9,10 @@ image_resource:
 inputs:
   - name: dipencode
 
+params:
+  GH_TOKEN:
+  NPM_TOKEN:
+
 run:
   path: /bin/sh
   args: ["dipencode/ci/release.sh"]
