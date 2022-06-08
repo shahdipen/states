@@ -7,6 +7,9 @@
     "test": "mocha src/index.test.js",
     "semantic-release": "semantic-release"
   },
+  "release": {
+      "branches": ["master"]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/shahdipen/states.git"
