@@ -1,4 +1,8 @@
 #!/bin/sh
+apk update && apk add git openssh
+
+mkdir -p ~/.ssh
+ssh-keyscan -t rsa -H github.com >> ~/.ssh/known_hosts
 
 cd dipencode
 npm ci
