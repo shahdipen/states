@@ -11,4 +11,4 @@ inputs:
 
 run:
   path: /bin/sh
-  args: ["./ci/run_tests.sh"]
+  args: ["dipencode/ci/run_tests.sh"]
