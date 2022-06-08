@@ -1,0 +1,17 @@
+---
+resources:
+  - name: dipencode
+    type: git
+    source:
+      uri: https://github.com/shahdipen/states.git
+      branch: master
+
+jobs:
+  - name: build-test-release
+    plan:
+      - get: dipencode
+        trigger: true
+      - task: run the test suite
+        file: dipencode/ci/run_tests.yml
+
+       
