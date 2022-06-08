@@ -6,7 +6,7 @@
     ["@semantic-release/release-notes-generator", { "preset": "angular" }],
     ["@semantic-release/github", {
       "githubApiPathPrefix": "api/v3",
-      "githubUrl": "https://github.com/"
+      "githubUrl": "https://github.com"
     }]
   ]
 }
