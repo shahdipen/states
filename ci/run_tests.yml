@@ -8,6 +8,6 @@ image_resource:
 
 inputs:
   - name: dipencode
-
+  
 run:
-  path: dipencode/ci/run_tests.sh
+  path: ./ci/run_tests.sh
