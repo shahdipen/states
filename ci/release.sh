@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd source-code
+cd dipencode
 
 echo "init-author-name=Dipen" >> .npmrc
 echo "init-author-email=dipenvshah@gmail.com" >> .npmrc
