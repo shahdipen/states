@@ -7,10 +7,6 @@
     "test": "mocha src/index.test.js",
     "semantic-release": "semantic-release"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shahdipen/states.git"
-  },
   "keywords": [
     "Get",
     "US",
@@ -18,10 +14,6 @@
   ],
   "author": "Dipen <dipenvshah@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shahdipen/states/issues"
-  },
-  "homepage": "https://github.com/shahdipen/states#readme",
   "dependencies": {
     "unique-random-array": "^1.0.0"
   },
