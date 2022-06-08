@@ -2,7 +2,6 @@
   "branches": [
     {"name": "master"}
   ],
-  "repositoryUrl": "git@github.com:shahdipen/states.git",
   "plugins": [
     ["@semantic-release/commit-analyzer", { "preset": "angular" }],
     ["@semantic-release/release-notes-generator", { "preset": "angular" }],
