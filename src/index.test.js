@@ -14,7 +14,7 @@ describe("state-names", () => {
 })
 
 describe("random", () => {
-  it("should return a random item", () => {
+  it("should return a random ite list", () => {
     const randomItem = stats.random();
     expect(stats.all).to.include(randomItem);
   })
