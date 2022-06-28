@@ -1,6 +1,5 @@
 const stats = require("./index");
 const expect = require("chai").expect;
-
 describe("state-names", () => {
   it('should work!', () => {
     expect(stats.all).to.satisfy(isArrayOfObjects);
